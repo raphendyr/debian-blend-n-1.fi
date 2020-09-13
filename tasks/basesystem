@@ -4,17 +4,53 @@ Description: Debian Blend by n-1.fi - packages for every system
  This metapackage will install packages useful for every Debian system.
 Install: true
 
-Depends: apt-listchanges, aptitude, popularity-contest
+Depends:
+  apt,
+  apt-listchanges,
+  apt-utils,
+  aptitude,
+  debconf,
+  dialog,
+  locales,
+  popularity-contest,
+Recommends:
+  unattended-upgrades,
+Why: Debian package management and core stuff
 
-Depends: bzip2, lz4, p7zip
+Recommends: cryptsetup
+Why: all systems should encrypt disks
 
-Depends: less
+Depends:
+  coreutils,
+  gawk,
+  less,
+  pv,
+  xmlstarlet,
+Why: basic shell tools
 
-Depends: curl, wget
+Depends:
+  bzip2,
+  gzip,
+  lz4,
+  p7zip,
+  unrar,
+Why: compression
+
+Recommends:
+  curl,
+  openssh-client,
+  rsync,
+  wget,
+Why: network connectivity
 
 Recommends: lm-sensors
 
-Recommends: vlan
+Recommends:
+  ipset,
+  vlan,
+Suggest:
+  iptables-persistent,
+Why: kernel networking
 
 Recommends: burp
 Why: the tool for backups

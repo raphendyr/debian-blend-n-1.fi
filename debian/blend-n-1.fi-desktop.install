@@ -1,0 +1,3 @@
+install/desktop/bin/* usr/bin/
+install/desktop/sddm.conf.d/* etc/sddm.conf.d/
+install/desktop/sshd_config.d/* etc/ssh/sshd_config.d/

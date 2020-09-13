@@ -1,0 +1,14 @@
+Format: https://blends.debian.org/blends/1.1
+Task: EFI-amd64
+Description: Debian Blend by n-1.fi - EFI amd64 hardware
+ This metapackage will install packages required for amd64 based EFI system.
+Install: false
+
+Depends:
+  console-setup,
+  grub-efi,
+  grub-theme-breeze,
+  linux-image-amd64,
+
+Recommends:
+  firmware-linux,

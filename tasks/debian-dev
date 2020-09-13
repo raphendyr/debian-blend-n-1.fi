@@ -13,3 +13,6 @@ Why: Supporting dev tools
 
 Depends: dupload
 Wby: Tool to upload build packages
+
+Depends: quilt
+Why: Debian package version management

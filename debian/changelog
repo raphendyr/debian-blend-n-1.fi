@@ -1,3 +1,28 @@
+debian-blend-n-1.fi (0.2) testing; urgency=medium
+
+  * update basesystem:
+    - add more apt related dependencies
+    - add more compression tools
+    - add basic shell utilities
+    - add basic kernel networking utilities
+    - add ssh and rsync
+    - blacklist pcspkr module
+  * update shell:
+    - add pass
+    - add network debugging tools
+    - add recovery tools
+  * update desktop:
+    - add lsiommu.sh
+    - add openssh-server
+    - disable ssh root login always
+    - use sddm theme breeze
+    - move fonts to separate package
+    - add many extensions for Firefox
+  * add efi-amd64 with EFI grub, linux image and drivers
+  * add fonts, which is required by desktop task
+
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 13 Sep 2020 19:51:37 +0300
+
 debian-blend-n-1.fi (0.1) testing; urgency=medium
 
   * Initial release.

@@ -9,9 +9,18 @@ Install: true
 Depends: blend-n-1.fi-shell
 Why: Every desktop also should support shell stuff
 
+Depends: blend-n-1.fi-fonts
+Why: Fonts for desktop
+
 Depends: desktop-base
-Recommends: xdg-utils, fonts-symbola, avahi-daemon, libnss-mdns
+Recommends: xdg-utils, avahi-daemon, libnss-mdns
 Why: task-desktop
+
+Recommends: avahi-discover
+Why: support avahi-daemon
+
+Recommendfs: openssh-server
+Why: typically remote connections are needed
 
 
 # KDE
@@ -28,8 +37,20 @@ Recommends:
   kdeutils,
   plasma-workspace-wallpapers,
   sddm,
+  sddm-theme-breeze,
   apper,
 Why: Include the default KDE desktop stuff (see task-kde-desktop)
+
+Recommends:
+  kdeartwork,
+  kleopatra,
+  pinentry-qt,
+  qtcurve,
+Why: Basic KDE support
+
+Breaks:
+  pinentry-gnome3,
+Why: Use only qt variant
 
 # Audio
 
@@ -44,33 +65,51 @@ Recommends: libreoffice, libreoffice-kde5
 
 Recommends: mythes-en-us, hunspell-en-us, hyphen-en-us
 
-Recommends: scribus
+Recommends:
+  scribus,
+  icc-profiles-free,
 
 Recommends: xournal
 
 
 # Graphics
 
-Recommends: gimp
-
-Recommends: inkscape
+Recommends:
+  gimp,
+  gimp-ufraw,
+  inkscape,
 
 
 # Web
 
-Recommends: firefox | firefox-esr
+Recommends:
+  firefox | firefox-esr,
+# webext-browserpass,
+  webext-form-history-control,
+  webext-lightbeam,
+  webext-treestyletab,
+  webext-ublock-origin-firefox,
+  xul-ext-itsalltext,
+  xul-ext-kwallet5,
+  xul-ext-pdf.js,
+  xul-ext-pentadactyl,
+Why: Firefox has smaller footprint than Chromium
 
-Recommends: chromium
-Why: Chromium is pretty important browser
+Recommends:
+  chromium,
+  webext-ublock-origin-chromium,
+Why: Chromium is pretty amazing browser
 
 
 # Social
 
-Recommends: discord-canary
-Why: popular chat (from deb.n-1.fi)
-
-Recommends: telegram-desktop
-Why: popular chat
+Recommends:
+  discord-canary,
+  telegram-desktop,
+Suggest:
+# Signal: https://signal.org/en/download/linux/
+  signal-desktop,
+Why: popular chats
 
 
 # Utilities
@@ -78,7 +117,14 @@ Why: popular chat
 Recommends: kazam
 Why: record desktop
 
+Recommends: kamoso
+Why: take pictures with webcam
+
 Recommends: pdftk
+
+# https://symless.com/synergy
+Suggest: synergy
+Why: share keyboard and mouse between devices
 
 
 # Sys Management
@@ -88,3 +134,8 @@ Why: kvm is superb
 
 Recommends: iw, plasma-nm
 Why: networking
+
+Recommends:
+  xdotool,
+  xutils,
+Why: all nice x11 utils

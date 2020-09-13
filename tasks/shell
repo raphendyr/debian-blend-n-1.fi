@@ -10,7 +10,6 @@ Depends: blend-n-1.fi-basesystem
 Depends:
   bash (>= 4.4),
   zsh (>= 5.3),
-
 Recommends:
   blend-n-1.fi-config-bash,
 
@@ -20,10 +19,9 @@ Why: Enables fuzzy text and file search in the shell and vim
 Depends:
   nano,
   vim,
-Why: Text editors
-
 Recommends:
   blend-n-1.fi-config-nano,
+Why: Text editors
 
 
 Recommends: git
@@ -35,15 +33,40 @@ Why: Required for shared dotfiles
 Recommends: octave
 
 
+# Secrets
+
+Recommends:
+  pass,
+  pass-extension-otp,
+  pinentry-tty,
+Why: Savely store passwords on disk
+
+
 # Sys Management
 
-Recommends: htop
+Recommends:
+ dfc,
+ htop,
+ iotop,
+Why: system monitoring
 
-Recommends: dfc
-Why: df with colors
+Recommends:
+  bind9-dnsutils,
+  bind9-host,
+  ipcalc,
+  iperf,
+  iputils-ping,
+  ipv6calc,
+  miniupnpc,
+  sipcalc,
+  tcpdump,
+  telnet,
+  traceroute,
+Why: network debug tools
 
-Recommends: ipcalc, ipv6calc, sipcalc
-
-Recommends: iperf, iputils-ping, miniupnpc, traceroute
+Recommends:
+  gddrescue,
+  testdisk,
+Why: recovery tools
 
 Recommends: mtp-tools

@@ -1,0 +1,177 @@
+Format: https://blends.debian.org/blends/1.1
+Task: Fonts
+Description: Debian Blend by n-1.fi - fonts
+ This metapackage will install a lot of fonts.
+Install: false
+
+Depends:
+  xfonts-utils,
+
+Recommends:
+  fonts-dejavu,
+  fonts-freefont-otf,
+  fonts-freefont-ttf,
+  fonts-liberation,
+  fonts-recommended,
+Why: basic fonts
+
+Recommends:
+  fonts-firacode,
+  fonts-inconsolata,
+  fonts-monoid,
+  fonts-roboto,
+  fonts-roboto-slab,
+Why: good for programming
+
+Recommends:
+  fonts-adf-accanthis,
+  fonts-adf-baskervald,
+  fonts-adf-berenis,
+  fonts-adf-gillius,
+  fonts-adf-ikarius,
+  fonts-adf-irianis,
+  fonts-adf-libris,
+  fonts-adf-mekanus,
+  fonts-adf-oldania,
+  fonts-adf-romande,
+  fonts-adf-switzera,
+  fonts-adf-tribun,
+  fonts-adf-universalis,
+  fonts-adf-verana,
+  fonts-alee,
+  fonts-ancient-scripts,
+  fonts-atarismall,
+  fonts-beteckna,
+  fonts-bpg-georgian,
+  fonts-breip,
+  fonts-dejavu-extra,
+  fonts-dkg-handwriting,
+  fonts-dustin,
+  fonts-ecolier-court,
+  fonts-ecolier-lignes-court,
+  fonts-essays1743,
+  fonts-f500,
+  fonts-georgewilliams,
+  fonts-goudybookletter,
+  fonts-inconsolata,
+  fonts-isabella,
+  fonts-jsmath,
+  fonts-junicode,
+  fonts-jura,
+  fonts-larabie-deco,
+  fonts-larabie-straight,
+  fonts-larabie-uncommon,
+  fonts-linex,
+  fonts-linuxlibertine,
+  fonts-lyx,
+  fonts-manchufont,
+  fonts-noto-hinted,
+  fonts-noto-mono,
+  fonts-ocr-a,
+  fonts-oflb-euterpe,
+  fonts-okolaks,
+  fonts-opensymbol,
+  fonts-radisnoir,
+  fonts-sil-andika,
+  fonts-sil-charis,
+  fonts-sil-doulos,
+  fonts-sil-gentium,
+  fonts-sil-gentium-basic,
+  fonts-tiresias,
+  fonts-tomsontalks,
+  fonts-tuffy,
+  t1-cyrillic,
+  t1-oldslavic,
+  t1-teams,
+  t1-xfree86-nonfree,
+Why: ubuntustudio-fonts
+
+
+# From task-*-desktop
+
+Recommends: fonts-sil-abyssinica
+Why: task-amharic-desktop
+
+Recommends: fonts-kacst, fonts-farsiweb
+Why: task-arabic-desktop
+
+Recommends: fonts-lohit-beng-bengali
+Why: task-bengali-desktop
+
+Recommends: fonts-dejavu
+Why: task-bulgarian-desktop
+
+Recommends: fonts-noto, fonts-noto-cjk
+Why: task-chinese-s-desktop
+
+Recommends: fonts-noto, fonts-noto-cjk
+Why: task-chinese-t-desktop
+
+Recommends: fonts-dzongkha
+Why: task-dzongkha-desktop
+
+Recommends: fonts-bpg-georgian
+Why: task-georgian-desktop
+
+Recommends: fonts-freefont-ttf
+Why: task-greek-desktop
+
+Recommends: fonts-lohit-gujr
+Why: task-gujarati-desktop
+
+Recommends: fonts-lohit-deva
+Why: task-hindi-desktop
+
+Recommends: fonts-sil-andika, fonts-dejavu, fonts-liberation, fonts-freefont-ttf
+Why: task-hungarian-desktop
+
+Recommends: fonts-vlgothic, fonts-ipafont
+Why: task-japanese-desktop
+
+Recommends: fonts-lohit-knda
+Why: task-kannada-desktop
+
+Recommends: fonts-khmeros
+Why: task-khmer-desktop
+
+Recommends: fonts-nanum, fonts-nanum-coding, fonts-noto, fonts-noto-cjk
+Why: task-korean-desktop
+
+Recommends: fonts-dejavu, fonts-unikurdweb
+Why: task-kurdish-desktop
+
+Recommends: fonts-dejavu
+Why: task-macedonian-desktop
+
+Recommends: fonts-lohit-mlym
+Why: task-malayalam-desktop
+
+Recommends: fonts-lohit-deva
+Why: task-marathi-desktop
+
+Recommends: fonts-lohit-deva
+Why: task-nepali-desktop
+
+Recommends: fonts-farsiweb
+Why: task-persian-desktop
+
+Recommends: fonts-lohit-guru
+Why: task-punjabi-desktop
+
+Recommends: fonts-dejavu, fonts-freefont-ttf
+Why: task-romanian-desktop
+
+Recommends: fonts-noto-hinted
+Why: task-sinhala-desktop
+
+Recommends: fonts-lohit-taml
+Why: task-tamil-desktop
+
+Recommends: fonts-lohit-telu
+Why: task-telugu-desktop
+
+Recommends: fonts-dejavu
+Why: task-ukrainian-desktop
+
+Recommends: fonts-ukij-uyghur
+Why: task-uyghur-desktop
