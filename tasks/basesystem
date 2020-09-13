@@ -1,0 +1,22 @@
+Format: https://blends.debian.org/blends/1.1
+Task: basesystem
+Description: Debian Blend by n-1.fi - packages for every system
+ This metapackage will install packages useful for every Debian system.
+Install: true
+
+Depends: apt-listchanges, aptitude, popularity-contest
+
+Depends: bzip2, lz4, p7zip
+
+Depends: less
+
+Depends: curl, wget
+
+Recommends: lm-sensors
+
+Recommends: vlan
+
+Recommends: burp
+Why: the tool for backups
+
+Recommends: passwdqc

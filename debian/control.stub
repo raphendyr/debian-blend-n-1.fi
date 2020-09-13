@@ -1,0 +1,19 @@
+Source: debian-blend-n-1.fi
+Section: misc
+Priority: optional
+Maintainer: Jaakko Kantojärvi <jaakko@n-1.fi>
+Build-Depends-Indep: debhelper (>= 12),
+                     blends-dev (>= 0.7.2)
+Standards-Version: 4.5.0
+Vcs-Browser: https://github.com/raphendyr/debian-blend-n-1.fi
+Vcs-Git: https://github.com/raphendyr/debian-blend-n-1.fi.git
+Homepage: https://github.com/raphendyr/debian-blend-n-1.fi
+
+Package: blend-n-1.fi-tasks
+Architecture: all
+Section: misc
+Priority: optional
+Depends: tasksel, ${misc:Depends}
+Description: Debian Blend by n-1.fi - tasksel
+ This package contains tasksel information for the Debian Raphendyr Pure Blend.
+

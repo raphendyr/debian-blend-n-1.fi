@@ -1,0 +1,49 @@
+Format: https://blends.debian.org/blends/1.1
+Task: shell
+Description: Debian Blend by n-1.fi - shell environment
+ This metapackage will install packages useful when working with shell
+ in Debian.
+Install: true
+
+Depends: blend-n-1.fi-basesystem
+
+Depends:
+  bash (>= 4.4),
+  zsh (>= 5.3),
+
+Recommends:
+  blend-n-1.fi-config-bash,
+
+Recommends: fzf, fd-find
+Why: Enables fuzzy text and file search in the shell and vim
+
+Depends:
+  nano,
+  vim,
+Why: Text editors
+
+Recommends:
+  blend-n-1.fi-config-nano,
+
+
+Recommends: git
+Why: A version control system used for development and for shared dotfiles
+
+Recommends: stow
+Why: Required for shared dotfiles
+
+Recommends: octave
+
+
+# Sys Management
+
+Recommends: htop
+
+Recommends: dfc
+Why: df with colors
+
+Recommends: ipcalc, ipv6calc, sipcalc
+
+Recommends: iperf, iputils-ping, miniupnpc, traceroute
+
+Recommends: mtp-tools

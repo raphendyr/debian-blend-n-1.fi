@@ -1,0 +1,90 @@
+Format: https://blends.debian.org/blends/1.1
+Task: desktop
+Description: Debian Blend by n-1.fi - desktop environment
+ This metapackage will install packages useful when working with desktop
+ in Debian installation.
+Install: true
+
+
+Depends: blend-n-1.fi-shell
+Why: Every desktop also should support shell stuff
+
+Depends: desktop-base
+Recommends: xdg-utils, fonts-symbola, avahi-daemon, libnss-mdns
+Why: task-desktop
+
+
+# KDE
+
+Recommends:
+  kde-plasma-desktop,
+  kde-standard,
+  kdeadmin,
+  kdegraphics,
+  kdemultimedia,
+  kdenetwork,
+  kdepim,
+  kdesdk,
+  kdeutils,
+  plasma-workspace-wallpapers,
+  sddm,
+  apper,
+Why: Include the default KDE desktop stuff (see task-kde-desktop)
+
+# Audio
+
+Depends: alsa-utils, pulseaudio
+
+Recommends: pavucontrol, pulseaudio-utils, pulsemixer
+
+
+# Office
+
+Recommends: libreoffice, libreoffice-kde5
+
+Recommends: mythes-en-us, hunspell-en-us, hyphen-en-us
+
+Recommends: scribus
+
+Recommends: xournal
+
+
+# Graphics
+
+Recommends: gimp
+
+Recommends: inkscape
+
+
+# Web
+
+Recommends: firefox | firefox-esr
+
+Recommends: chromium
+Why: Chromium is pretty important browser
+
+
+# Social
+
+Recommends: discord-canary
+Why: popular chat (from deb.n-1.fi)
+
+Recommends: telegram-desktop
+Why: popular chat
+
+
+# Utilities
+
+Recommends: kazam
+Why: record desktop
+
+Recommends: pdftk
+
+
+# Sys Management
+
+Recommends: libvirt-clients, libvirt-daemon, libvirt-daemon-system, qemu-kvm, virt-manager
+Why: kvm is superb
+
+Recommends: iw, plasma-nm
+Why: networking

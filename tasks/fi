@@ -1,0 +1,6 @@
+Format: https://blends.debian.org/blends/1.1
+Task: fi
+Description: Debian Blend by n-1.fi - Finland localization
+ This package configures the system to be used in Finalnd.
+
+Depends: blend-n-1.fi-basesystem

@@ -1,0 +1,7 @@
+Format: https://blends.debian.org/blends/1.1
+Task: unstable
+Description: Debian Blend by n-1.fi - Debian unstable
+ This package configures the system for unstable Debian.
+Install: true
+
+Depends: blend-n-1.fi-basesystem

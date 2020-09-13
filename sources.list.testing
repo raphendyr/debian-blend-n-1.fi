@@ -1,0 +1,2 @@
+deb http://ftp.debian.org/debian testing main
+deb [signed-by=/usr/share/keyrings/deb.n-1.fi-archive-keyring.gpg] http://deb.n-1.fi/debian testing main contrib non-free

@@ -1,0 +1,4 @@
+#!/usr/bin/make -f
+
+include /usr/share/blends-dev/rules
+BLENDMKFILE := Makefile

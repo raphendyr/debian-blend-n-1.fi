@@ -1,0 +1,8 @@
+/debian-blend-*-tasks.desc
+/debian/*.debhelper.log
+/debian/*.substvars
+/debian/.debhelper/
+/debian/blend-n-1.fi-*/
+/debian/control
+/debian/debhelper-build-stamp
+/debian/files

@@ -1,0 +1,8 @@
+deb https://www.nic.funet.fi/debian/ stable main contrib non-free
+deb-src https://www.nic.funet.fi/debian/ stable main contrib non-free
+
+deb https://www.nic.funet.fi/debian/ testing main contrib non-free
+deb-src https://www.nic.funet.fi/debian/ testing main contrib non-free
+
+deb https://www.nic.funet.fi/debian/ unstable main contrib non-free
+deb-src https://www.nic.funet.fi/debian/ unstable main contrib non-free
