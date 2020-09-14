@@ -2,6 +2,8 @@ debian-blend-n-1.fi (0.4) UNRELEASED; urgency=medium
 
   * change Debian source format from native to git
   * add copyright
+  * update basesystem:
+    - add script dpkg-purge-removed
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 14 Sep 2020 12:02:35 +0300
 

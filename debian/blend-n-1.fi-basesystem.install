@@ -1,2 +1,3 @@
 install/basesystem/debian-security.list etc/apt/sources.list.d/
 install/basesystem/modprobe.d/* etc/modprobe.d/
+install/basesystem/sbin/* usr/sbin/

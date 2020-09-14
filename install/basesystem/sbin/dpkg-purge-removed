@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dpkg -l \
+	| awk '/^rc/ {print $2}' \
+	| xargs -r dpkg -P
