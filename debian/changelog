@@ -1,3 +1,18 @@
+debian-blend-n-1.fi (0.3) testing; urgency=medium
+
+  * update basesystem:
+    - add essential packages
+    - add systemd
+    - replace unrar (nonfree) with unar
+  * update desktop:
+    - add pulseaudio-module-bluetooth
+    - drop missing packages: gimp-ufraw, xul-ext-itsalltext,
+      xul-ext-kwallet5, xul-ext-pentadactyl
+    - drop kdeartwork: art is part of kde-standard
+    - replace xutils with x11-utils and x11-xserver-utils
+
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 14 Sep 2020 11:51:06 +0300
+
 debian-blend-n-1.fi (0.2) testing; urgency=medium
 
   * update basesystem:

@@ -5,6 +5,33 @@ Description: Debian Blend by n-1.fi - packages for every system
 Install: true
 
 Depends:
+  base-passwd (>= 3.5.46),
+  bash (>= 4.4),
+  bsdutils (>= 1:2.33),
+  coreutils (>= 8.30),
+  dash,
+  diffutils,
+  dpkg (>= 1.19),
+  e2fsprogs,
+  findutils (>= 4.6.0),
+  findutils (>= 4.6.0),
+  grep (>= 3.3),
+  gzip (>= 1.9),
+  hostname (>= 3.21),
+  init,
+  ncurses-base (>= 6.1),
+  ncurses-bin (>= 6.1),
+  sed (>= 4.7),
+  util-linux (>= 2.33),
+Why: essential packages (roots)
+
+Depends:
+  systemd,
+  systemd-cron,
+  systemd-sysv,
+Why systemd
+
+Depends:
   apt,
   apt-listchanges,
   apt-utils,
@@ -21,19 +48,17 @@ Recommends: cryptsetup
 Why: all systems should encrypt disks
 
 Depends:
-  coreutils,
   gawk,
   less,
   pv,
   xmlstarlet,
-Why: basic shell tools
+Why: more basic shell utils
 
 Depends:
   bzip2,
-  gzip,
   lz4,
   p7zip,
-  unrar,
+  unar,
 Why: compression
 
 Recommends:

@@ -42,7 +42,6 @@ Recommends:
 Why: Include the default KDE desktop stuff (see task-kde-desktop)
 
 Recommends:
-  kdeartwork,
   kleopatra,
   pinentry-qt,
   qtcurve,
@@ -54,9 +53,15 @@ Why: Use only qt variant
 
 # Audio
 
-Depends: alsa-utils, pulseaudio
-
-Recommends: pavucontrol, pulseaudio-utils, pulsemixer
+Depends:
+  alsa-utils,
+  pulseaudio,
+Recommends:
+  pavucontrol,
+  pulseaudio-module-bluetooth,
+  pulseaudio-utils,
+  pulsemixer,
+Why: modern sound system
 
 
 # Office
@@ -76,7 +81,6 @@ Recommends: xournal
 
 Recommends:
   gimp,
-  gimp-ufraw,
   inkscape,
 
 
@@ -89,10 +93,7 @@ Recommends:
   webext-lightbeam,
   webext-treestyletab,
   webext-ublock-origin-firefox,
-  xul-ext-itsalltext,
-  xul-ext-kwallet5,
   xul-ext-pdf.js,
-  xul-ext-pentadactyl,
 Why: Firefox has smaller footprint than Chromium
 
 Recommends:
@@ -136,6 +137,7 @@ Recommends: iw, plasma-nm
 Why: networking
 
 Recommends:
+  x11-utils,
+  x11-xserver-utils,
   xdotool,
-  xutils,
 Why: all nice x11 utils
