@@ -14,6 +14,13 @@ debian-blend-n-1.fi (0.4) UNRELEASED; urgency=medium
     - add suggestion for google-chrome-stable (requires manual install)
     - add set of networking tools
     - hack chromium dark mode detection
+  * add tasks:
+    - dev-common
+    - dev-containers
+    - dev-debian (renamed from debian-dev)
+    - dev-elixir
+    - dev-node
+    - dev-python
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 14 Sep 2020 12:02:35 +0300
 

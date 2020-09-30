@@ -1,0 +1,17 @@
+Format: https://blends.debian.org/blends/1.1
+Description: Debian related development tools for Debian Blend by n-1.fi
+ This metapackage will install packages useful for development activities
+ related to Debian packages.
+Install: false
+
+# rename from debian-dev to dev-debian
+Replaces: blend-n-1.fi-debian-dev
+Breaks: blend-n-1.fi-debian-dev
+
+Recommends:
+  blends-dev,
+  config-package-dev,
+  devscripts,
+  dpkg-dev,
+  dupload,
+  quilt,

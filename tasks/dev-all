@@ -1,0 +1,12 @@
+Format: https://blends.debian.org/blends/1.1
+Description: All development tools for Debian Blend by n-1.fi
+ This package is part of the Debian Blend-n-1.fi Pure Blend and installs all
+ development tasks for this blend.
+Install: false
+
+Depends:
+  blend-n-1.fi-dev-containers,
+  blend-n-1.fi-dev-debian,
+  blend-n-1.fi-dev-elixir,
+  blend-n-1.fi-dev-node,
+  blend-n-1.fi-dev-python,
