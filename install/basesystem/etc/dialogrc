@@ -1,0 +1,87 @@
+# Run-time configuration file for dialog
+# Number     -  <number>
+# String     -  "string"
+# Boolean    -  <ON|OFF>
+# Attribute  -  (foreground,background,highlight?)
+
+# Set aspect-ration.
+aspect = 0
+# Set separator (for multiple widgets output).
+separate_widget = ""
+# Set tab-length (for textbox tab-conversion).
+tab_len = 2
+# Make tab-traversal for checklist, etc., include the list.
+visit_items = OFF
+
+# Shadow dialog boxes? This also turns on color.
+use_shadow = ON
+use_colors = ON
+
+# Screen color
+screen_color = (WHITE,BLUE,ON)
+# Dialog text color
+title_color = (BLACK,WHITE,OFF)
+dialog_color = title_color
+# Dialog border (1: top/left, 2: right/bottom)
+border_color = (WHITE,WHITE,ON)
+border2_color = title_color
+
+# Active button color (the < and > markers)
+button_active_color = (WHITE,BLUE,ON)
+# Active button key color (reverted on focused button)
+button_key_active_color = button_active_color
+# Active button label color
+button_label_active_color = (YELLOW,BLUE,ON)
+# Inactive button color
+button_inactive_color = dialog_color
+# Inactive button key color
+button_key_inactive_color = (RED,WHITE,OFF)
+# Inactive button label color
+button_label_inactive_color = (BLACK,WHITE,ON)
+
+# Item color
+item_color = dialog_color
+item_selected_color = button_active_color
+# Item help-text color (printed on bottom left on the screen area)
+itemhelp_color = (WHITE,BLACK,OFF)
+
+# Check box color
+check_color = dialog_color
+check_selected_color = button_active_color
+
+# Input box color
+inputbox_color = dialog_color
+inputbox_border_color = dialog_color
+inputbox_border2_color = dialog_color
+
+# Form / Edit
+form_active_text_color = button_active_color
+form_text_color = (WHITE,YELLOW,ON)
+form_item_readonly_color = button_label_inactive_color
+
+# Tag color (in multiple widgets)
+tag_color = title_color
+tag_selected_color = button_label_active_color
+tag_key_color = button_key_inactive_color
+tag_key_selected_color = (RED,BLUE,ON)
+
+# Menu box color
+# - form labels
+# - calendar weekdays and week numbers
+menubox_color = dialog_color
+menubox_border_color = border_color
+menubox_border2_color = dialog_color
+
+# Search box color
+searchbox_color = dialog_color
+searchbox_title_color = title_color
+searchbox_border_color = border_color
+searchbox_border2_color = dialog_color
+
+# Up/Down arrow colors + position indicator
+uarrow_color = title_color
+darrow_color = uarrow_color
+position_indicator_color = title_color
+
+# Dialog box gauge color
+gauge_color = title_color
