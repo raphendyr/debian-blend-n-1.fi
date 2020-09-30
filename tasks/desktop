@@ -40,6 +40,9 @@ Recommends:
 Why: Include the default KDE desktop stuff (see task-kde-desktop)
 
 Recommends:
+  kde-config-gtk-style-preview,
+  kde-config-systemd,
+  kde-config-tablet,
   kleopatra,
   pinentry-qt,
   qtcurve,
@@ -48,6 +51,7 @@ Why: Basic KDE support
 Breaks:
   pinentry-gnome3,
 Why: Use only qt variant
+
 
 # Audio
 
@@ -60,6 +64,13 @@ Recommends:
   pulseaudio-utils,
   pulsemixer,
 Why: modern sound system
+
+
+# Video
+
+Recommends:
+  smplayer,
+  vlc,
 
 
 # Office
@@ -81,6 +92,10 @@ Recommends:
   gimp,
   inkscape,
 
+Recommends:
+  draw.io,
+Why: Very handy tool to draw charts
+
 
 # Web
 
@@ -98,6 +113,12 @@ Recommends:
   chromium,
   webext-ublock-origin-chromium,
 Why: Chromium is pretty amazing browser
+
+Recommends:
+  blend-n-1.fi-config-google,
+Suggests:
+  google-chrome-stable,
+Why: Google Chrome is required for some things, e.g., Google Meet
 
 
 # Social
@@ -128,14 +149,27 @@ Why: share keyboard and mouse between devices
 
 # Sys Management
 
-Recommends: libvirt-clients, libvirt-daemon, libvirt-daemon-system, qemu-kvm, virt-manager
+Recommends:
+  libvirt-clients,
+  libvirt-daemon,
+  libvirt-daemon-system,
+  qemu-kvm,
+  virt-manager,
 Why: kvm is superb
 
-Recommends: iw, plasma-nm
+Recommends:
+  iw,
+  plasma-nm,
+  wireshark,
 Why: networking
 
 Recommends:
   x11-utils,
   x11-xserver-utils,
+  xbindkeys,
   xdotool,
+  xinput,
 Why: all nice x11 utils
+
+Recommends:
+  cifs-utils,
