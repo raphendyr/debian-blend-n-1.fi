@@ -40,6 +40,7 @@ Depends:
   dialog,
   locales,
   popularity-contest,
+  reportbug,
 Recommends:
   unattended-upgrades,
 Why: Debian package management and core stuff
@@ -81,3 +82,7 @@ Recommends: burp
 Why: the tool for backups
 
 Recommends: passwdqc
+
+Suggests:
+  hwinfo,
+Why: generic system debugging and info
