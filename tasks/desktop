@@ -1,10 +1,8 @@
 Format: https://blends.debian.org/blends/1.1
 Task: desktop
-Description: Debian Blend by n-1.fi - desktop environment
- This metapackage will install packages useful when working with desktop
- in Debian installation.
+Description: Desktop environment for Debian Blend by n-1.fi
+ This metapackage will install packages, which provide a desktop experience.
 Install: true
-
 
 Depends: blend-n-1.fi-shell
 Why: Every desktop also should support shell stuff

@@ -1,6 +1,6 @@
 Format: https://blends.debian.org/blends/1.1
 Task: Fonts
-Description: Debian Blend by n-1.fi - fonts
+Description: Fonts for Debian Blend by n-1.fi
  This metapackage will install a lot of fonts.
 Install: false
 

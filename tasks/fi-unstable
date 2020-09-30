@@ -1,6 +1,6 @@
 Format: https://blends.debian.org/blends/1.1
 Task: fi-unstable
-Description: Debian Blend by n-1.fi - unstable Debian in Finland
+Description: Debian unstable in Finland for Debian Blend by n-1.fi
  This package configures the system for unstable Debian in Finland.
 Enhances: blend-n-1.fi-fi, blend-n-1.fi-unstable
 

@@ -1,6 +1,6 @@
 Format: https://blends.debian.org/blends/1.1
 Task: unstable
-Description: Debian Blend by n-1.fi - Debian unstable
+Description: Debian unstable for Debian Blend by n-1.fi
  This package configures the system for unstable Debian.
 Install: true
 

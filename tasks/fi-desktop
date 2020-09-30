@@ -1,6 +1,6 @@
 Format: https://blends.debian.org/blends/1.1
 Task: fi-desktop
-Description: Debian Blend by n-1.fi - desktop in Finland
+Description: Finnish Desktop localization for Debian Blend by n-1.fi
  This package configures the system for desktop in Finland.
 Enhances: blend-n-1.fi-fi, blend-n-1.fi-desktop
 

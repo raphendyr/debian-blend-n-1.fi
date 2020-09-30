@@ -1,8 +1,7 @@
 Format: https://blends.debian.org/blends/1.1
 Task: shell
-Description: Debian Blend by n-1.fi - shell environment
- This metapackage will install packages useful when working with shell
- in Debian.
+Description: Shell environment for Debian Blend by n-1.fi
+ This metapackage will install packages, which provide a shell experience.
 Install: true
 
 Depends: blend-n-1.fi-basesystem

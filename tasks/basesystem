@@ -1,6 +1,6 @@
 Format: https://blends.debian.org/blends/1.1
 Task: basesystem
-Description: Debian Blend by n-1.fi - packages for every system
+Description: Debian core for Debian Blend by n-1.fi
  This metapackage will install packages useful for every Debian system.
 Install: true
 

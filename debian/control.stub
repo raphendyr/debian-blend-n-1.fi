@@ -14,6 +14,6 @@ Architecture: all
 Section: misc
 Priority: optional
 Depends: tasksel, ${misc:Depends}
-Description: Debian Blend by n-1.fi - tasksel
+Description: Tasksel information for Debian Blend by n-1.fi
  This package contains tasksel information for the Debian Raphendyr Pure Blend.
 
