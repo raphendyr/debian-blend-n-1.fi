@@ -2,8 +2,8 @@ Source: debian-blend-n-1.fi
 Section: misc
 Priority: optional
 Maintainer: Jaakko Kantojärvi <jaakko@n-1.fi>
-Build-Depends-Indep: debhelper (>= 12),
-                     blends-dev (>= 0.7.2)
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: blends-dev (>= 0.7.2)
 Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/raphendyr/debian-blend-n-1.fi
 Vcs-Git: https://github.com/raphendyr/debian-blend-n-1.fi.git

@@ -1,0 +1,4 @@
+--diff-ignore
+--extend-diff-ignore=\..*
+--tar-ignore
+--tar-ignore=.*
