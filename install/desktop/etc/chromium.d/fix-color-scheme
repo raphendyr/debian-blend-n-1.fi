@@ -1,0 +1,20 @@
+#!/bin/sh
+
+theme=
+if [ "${GTK_THEME:-}" ]; then
+	theme=${GTK_THEME}
+elif which gsettings >/dev/null; then
+	theme=$(gsettings get org.gnome.desktop.interface gtk-theme | tr -d \')
+fi
+
+if [ "$theme" ]; then
+	theme=$(echo $theme | tr '[A-Z]' '[a-z]')
+	case "$theme" in
+		*dark)
+			export CHROMIUM_FLAGS="$CHROMIUM_FLAGS --force-dark-mode --enable-features=WebUIDarkMode"
+			;;
+		*light)
+			export CHROMIUM_FLAGS="$CHROMIUM_FLAGS --disable-features=DarkMode"
+			;;
+	esac
+fi
