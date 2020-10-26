@@ -1,4 +1,4 @@
-debian-blend-n-1.fi (0.4) UNRELEASED; urgency=medium
+debian-blend-n-1.fi (0.4) testing; urgency=medium
 
   * change Debian source format from native to git
   * add copyright
@@ -22,7 +22,7 @@ debian-blend-n-1.fi (0.4) UNRELEASED; urgency=medium
     - dev-node
     - dev-python
 
- -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 14 Sep 2020 12:02:35 +0300
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 26 Oct 2020 16:34:07 +0200
 
 debian-blend-n-1.fi (0.3) testing; urgency=medium
 
