@@ -1,5 +1,7 @@
 debian-blend-n-1.fi (0.5) UNRELEASED; urgency=medium
 
+  * update desktop:
+    - disable qt debug logs by default
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 02 Nov 2020 16:25:42 +0200
 
