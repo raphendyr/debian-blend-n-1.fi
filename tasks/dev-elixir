@@ -6,3 +6,5 @@ Install: false
 
 Recommends:
   elixir,
+  erlang-dev,
+  inotify-tools,
