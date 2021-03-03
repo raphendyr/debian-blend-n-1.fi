@@ -173,3 +173,4 @@ Why: all nice x11 utils
 
 Recommends:
   cifs-utils,
+  usbutils,
