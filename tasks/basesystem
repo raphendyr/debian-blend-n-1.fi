@@ -35,13 +35,13 @@ Depends:
   apt,
   apt-listchanges,
   apt-utils,
-  aptitude,
   debconf,
   dialog,
   locales,
+Recommends:
+  aptitude,
   popularity-contest,
   reportbug,
-Recommends:
   unattended-upgrades,
 Why: Debian package management and core stuff
 
