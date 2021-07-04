@@ -29,9 +29,6 @@ Why: A version control system used for development and for shared dotfiles
 Recommends: stow
 Why: Required for shared dotfiles
 
-Recommends: octave
-
-
 # Secrets
 
 Recommends:
@@ -43,6 +40,11 @@ Why: Savely store passwords on disk
 
 # Sys Management
 
+Depends:
+  zip,
+  unzip,
+Why: more compression tools
+
 Recommends:
  dfc,
  htop,
@@ -53,19 +55,17 @@ Recommends:
   bind9-dnsutils,
   bind9-host,
   ipcalc,
-  iperf,
+  iperf3,
   iputils-ping,
   ipv6calc,
-  miniupnpc,
   sipcalc,
   tcpdump,
   telnet,
   traceroute,
+  whois,
 Why: network debug tools
 
 Recommends:
   gddrescue,
   testdisk,
 Why: recovery tools
-
-Recommends: mtp-tools

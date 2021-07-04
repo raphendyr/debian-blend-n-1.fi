@@ -19,6 +19,7 @@ Depends:
   gzip (>= 1.9),
   hostname (>= 3.21),
   init,
+  man-db,
   ncurses-base (>= 6.1),
   ncurses-bin (>= 6.1),
   sed (>= 4.7),

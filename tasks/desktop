@@ -75,7 +75,14 @@ Recommends:
 
 # Office
 
-Recommends: libreoffice, libreoffice-kde5
+Recommends: octave
+Why: Mathematics
+
+Recommends:
+  libreoffice,
+  libreoffice-kde5,
+  libreoffice-hyphenation-fi, libreoffice-spellcheck-fi, libreoffice-voikko,
+Why: Office Suite
 
 Recommends: mythes-en-us, hunspell-en-us, hyphen-en-us
 
@@ -161,6 +168,7 @@ Recommends:
   iw,
   plasma-nm,
   wireshark,
+  miniupnpc,
 Why: networking
 
 Recommends:
@@ -174,3 +182,5 @@ Why: all nice x11 utils
 Recommends:
   cifs-utils,
   usbutils,
+
+Recommends: mtp-tools

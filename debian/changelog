@@ -1,5 +1,19 @@
 debian-blend-n-1.fi (0.6) UNRELEASED; urgency=medium
 
+  * update basesystem:
+    - add man-db
+  * update shell:
+    - remove miniupnpc (moved to desktop)
+    - remove mtp-tools (moved to desktop)
+    - remove octave (moved to desktop)
+    - add whois
+    - add zip and unzip
+    - replace iperf with iperf3
+  * update desktop:
+    - add Finnish spell check to libreoffice
+    - add miniupnpc
+    - add mtp-tools
+    - add octave
   * add tasks:
     - dev-cloud
 
