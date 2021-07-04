@@ -1,4 +1,4 @@
-debian-blend-n-1.fi (0.6) UNRELEASED; urgency=medium
+debian-blend-n-1.fi (0.6) testing; urgency=medium
 
   * update basesystem:
     - add man-db
