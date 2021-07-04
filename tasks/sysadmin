@@ -1,0 +1,10 @@
+Format: https://blends.debian.org/blends/1.1
+Description: SysAdmin tools for Debian Blend by n-1.fi
+ This metapackage will install packages useful for system
+ administration activities.
+Install: false
+
+Recommends:
+  ansible,
+  ansible-lint,
+  yamllint,

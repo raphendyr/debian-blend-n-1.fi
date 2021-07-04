@@ -1,0 +1,10 @@
+Format: https://blends.debian.org/blends/1.1
+Description: VPS amd64 hardware for Debian Blend by n-1.fi
+ This metapackage will install packages required for amd64 based
+ legacy/BIOS system intended for use in a VPS.
+Install: false
+
+Depends:
+  console-setup,
+  grub-pc,
+  linux-image-amd64,

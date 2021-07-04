@@ -16,6 +16,8 @@ debian-blend-n-1.fi (0.6) UNRELEASED; urgency=medium
     - add octave
   * add tasks:
     - dev-cloud
+    - sysadmin
+    - vps-amd64
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 04 Jul 2021 21:25:53 +0300
 
