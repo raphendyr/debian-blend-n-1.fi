@@ -1,5 +1,7 @@
 debian-blend-n-1.fi (0.8) UNRELEASED; urgency=medium
 
+  * update fi:
+    - add new debian section non-free-firmware
   * update desktop:
     - add mpris bluetooth control proxy
 
