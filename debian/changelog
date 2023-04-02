@@ -2,6 +2,13 @@ debian-blend-n-1.fi (0.8) UNRELEASED; urgency=medium
 
   * update fi:
     - add new debian section non-free-firmware
+  * update basesystem:
+    - add gdisk
+  * update efi-amd64:
+    - add dosfstools
+  * update shell:
+    - add ripgrep (rg)
+    - add shellcheck
   * update desktop:
     - add mpris bluetooth control proxy
   * update dev:

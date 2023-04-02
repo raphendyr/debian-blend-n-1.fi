@@ -46,8 +46,10 @@ Recommends:
   unattended-upgrades,
 Why: Debian package management and core stuff
 
-Recommends: cryptsetup
-Why: all systems should encrypt disks
+Recommends:
+  cryptsetup,
+  gdisk,
+Why: basic disk management tools
 
 Depends:
   gawk,

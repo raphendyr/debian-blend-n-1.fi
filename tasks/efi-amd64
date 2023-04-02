@@ -10,5 +10,9 @@ Depends:
   grub-theme-breeze,
   linux-image-amd64,
 
+Depends:
+  dosfstools
+Why: EFI filesystem uses fat
+
 Recommends:
   firmware-linux,

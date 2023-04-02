@@ -12,8 +12,11 @@ Depends:
 Recommends:
   blend-n-1.fi-config-bash,
 
-Recommends: fzf, fd-find
-Why: Enables fuzzy text and file search in the shell and vim
+Recommends:
+  fd-find,
+  fzf,
+  ripgrep,
+Why: Modern shell tools, which also enable fuzzy text and file search in the shell and vim.
 
 Depends:
   nano,
@@ -28,6 +31,10 @@ Why: A version control system used for development and for shared dotfiles
 
 Recommends: stow
 Why: Required for shared dotfiles
+
+Recommends:
+  shellcheck,
+Why: Basic checks for shell scripts, to keep them good!
 
 # Secrets
 
