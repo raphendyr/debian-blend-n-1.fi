@@ -1,4 +1,4 @@
-debian-blend-n-1.fi (0.8) UNRELEASED; urgency=medium
+debian-blend-n-1.fi (0.8) testing; urgency=medium
 
   * update fi:
     - add new debian section non-free-firmware
@@ -16,7 +16,7 @@ debian-blend-n-1.fi (0.8) UNRELEASED; urgency=medium
     - add autopep8 to python tools
     - drop node, use nvm instead
 
- -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 02 Apr 2023 21:10:23 +0300
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 02 Apr 2023 21:25:46 +0300
 
 debian-blend-n-1.fi (0.7) testing; urgency=medium
 
