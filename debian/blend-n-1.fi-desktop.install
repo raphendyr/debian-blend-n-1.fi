@@ -1,2 +1,3 @@
 install/desktop/bin/* usr/bin/
 install/desktop/etc/* etc/
+install/desktop/usr/* usr/

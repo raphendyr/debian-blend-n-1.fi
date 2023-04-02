@@ -59,11 +59,12 @@ Depends:
   alsa-utils,
   pulseaudio,
 Recommends:
+  bluez,
   pavucontrol,
   pulseaudio-module-bluetooth,
   pulseaudio-utils,
   pulsemixer,
-Why: modern sound system
+Why: Modern sound system and bluetooth
 
 
 # Video
