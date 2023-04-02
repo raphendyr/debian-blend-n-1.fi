@@ -1,9 +1,0 @@
-Format: https://blends.debian.org/blends/1.1
-Description: Javascript development tools for Debian Blend by n-1.fi
- This metapackage will install packages useful for Javascript development
- activities.
-Install: false
-
-Recommends:
-  nodejs,
-  npm,

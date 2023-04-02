@@ -6,6 +6,7 @@ debian-blend-n-1.fi (0.8) UNRELEASED; urgency=medium
     - add mpris bluetooth control proxy
   * update dev:
     - add more elixir tools
+    - drop node, use nvm instead
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 02 Apr 2023 21:10:23 +0300
 
