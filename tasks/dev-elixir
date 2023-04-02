@@ -7,4 +7,16 @@ Install: false
 Recommends:
   elixir,
   erlang-dev,
+  erlang-dialyzer,
   inotify-tools,
+Why: Default Elxir + Mix setup
+
+Recommends:
+  erlang-inets,
+  erlang-os-mon,
+  erlang-runtime-tools,
+  erlang-ssl,
+  erlang-xmerl,
+  erlang-dev,
+  erlang-parsetools,
+Why: Required by Livebook

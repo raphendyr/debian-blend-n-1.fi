@@ -4,6 +4,8 @@ debian-blend-n-1.fi (0.8) UNRELEASED; urgency=medium
     - add new debian section non-free-firmware
   * update desktop:
     - add mpris bluetooth control proxy
+  * update dev:
+    - add more elixir tools
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 02 Apr 2023 21:10:23 +0300
 
