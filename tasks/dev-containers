@@ -8,3 +8,6 @@ Recommends:
   blend-n-1.fi-config-docker,
   docker-ce,
   docker-compose (>= 1.21),
+
+Recommends:
+  yamllint,

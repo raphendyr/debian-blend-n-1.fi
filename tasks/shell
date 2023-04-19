@@ -19,6 +19,7 @@ Recommends:
 Why: Modern shell tools, which also enable fuzzy text and file search in the shell and vim.
 
 Depends:
+  bat,
   nano,
   vim,
 Recommends:
