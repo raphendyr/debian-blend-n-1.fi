@@ -56,15 +56,18 @@ Why: Use only qt variant
 # Audio
 
 Depends:
-  alsa-utils,
-  pulseaudio,
+  pipewire-audio,
 Recommends:
   bluez,
   pavucontrol,
-  pulseaudio-module-bluetooth,
+  pipewire-jack,
   pulseaudio-utils,
   pulsemixer,
 Why: Modern sound system and bluetooth
+
+Breaks:
+  alsa-utils,
+Why: legacy
 
 
 # Video
