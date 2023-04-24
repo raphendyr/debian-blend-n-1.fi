@@ -5,8 +5,9 @@ Description: Python development tools for Debian Blend by n-1.fi
 Install: false
 
 Recommends:
-  python3,
-  python3-venv,
-  python3-pip,
   autopep8,
+  pylint,
+  python3,
+  python3-pip,
+  python3-venv,
 Why: Core Python stuff
