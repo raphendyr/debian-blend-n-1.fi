@@ -1,3 +1,10 @@
+debian-blend-n-1.fi (0.10) testing; urgency=medium
+
+  * update desktop
+    - remove mpris bluetooth control proxy, as it's provided by bluez
+
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Mon, 09 Dec 2024 03:26:21 +0200
+
 debian-blend-n-1.fi (0.9) testing; urgency=medium
 
   * update shell:
