@@ -1,3 +1,13 @@
+debian-blend-n-1.fi (0.11) testing; urgency=medium
+
+  * update basesystem
+    - update Apt source list format
+    - update Debian security release
+  * update fi
+    - update Apt source list format
+
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 23 Feb 2025 00:07:06 +0200
+
 debian-blend-n-1.fi (0.10) testing; urgency=medium
 
   * update desktop

@@ -1,1 +1,1 @@
-install/fi/debian-fi.list etc/apt/sources.list.d/
+install/fi/debian-fi.sources etc/apt/sources.list.d/
