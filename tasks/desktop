@@ -122,7 +122,7 @@ Why: Firefox has smaller footprint than Chromium
 
 Recommends:
   chromium,
-  webext-ublock-origin-chromium,
+  webext-plasma-browser-integration,
 Why: Chromium is pretty amazing browser
 
 Recommends:
