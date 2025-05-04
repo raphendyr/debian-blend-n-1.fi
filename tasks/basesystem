@@ -60,7 +60,6 @@ Depends:
   bzip2,
   lz4,
   p7zip,
-  unar,
 Why: compression
 
 Recommends:
