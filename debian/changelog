@@ -1,3 +1,14 @@
+debian-blend-n-1.fi (0.13) testing; urgency=medium
+
+  * basesystem
+    - remove unar as it depends indirectly on x11
+  * update desktop
+    - remove x11 stuff as wayland is now the thing
+    - remove ublock browser extension
+    - add plasma integration browser extension
+
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Sun, 04 May 2025 06:34:36 +0300
+
 debian-blend-n-1.fi (0.12) testing; urgency=medium
 
   * update basesystem
