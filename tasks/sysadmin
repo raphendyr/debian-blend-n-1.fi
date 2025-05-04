@@ -8,3 +8,21 @@ Recommends:
   ansible,
   ansible-lint,
   yamllint,
+Why: Ansible as management tool
+
+Recommends:
+  xmlstarlet,
+Why: to edit xml files
+
+Recommends:
+  iperf3,
+  tcpdump,
+  telnet,
+  traceroute,
+  whois,
+Why: network debug tools
+
+Recommends:
+  gddrescue,
+  testdisk,
+Why: recovery tools

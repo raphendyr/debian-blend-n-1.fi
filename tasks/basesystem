@@ -14,7 +14,6 @@ Depends:
   dpkg (>= 1.19),
   e2fsprogs,
   findutils (>= 4.6.0),
-  findutils (>= 4.6.0),
   grep (>= 3.3),
   gzip (>= 1.9),
   hostname (>= 3.21),
@@ -30,7 +29,7 @@ Depends:
   systemd,
   systemd-cron,
   systemd-sysv,
-Why systemd
+Why: systemd
 
 Depends:
   apt,
@@ -55,7 +54,6 @@ Depends:
   gawk,
   less,
   pv,
-  xmlstarlet,
 Why: more basic shell utils
 
 Depends:
@@ -72,17 +70,12 @@ Recommends:
   wget,
 Why: network connectivity
 
-Recommends: lm-sensors
-
 Recommends:
   ipset,
   vlan,
 Suggest:
   iptables-persistent,
 Why: kernel networking
-
-Recommends: burp
-Why: the tool for backups
 
 Recommends: passwdqc
 

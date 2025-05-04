@@ -16,3 +16,8 @@ Why: EFI filesystem uses fat
 
 Recommends:
   firmware-linux,
+Why: hardware requires firmwares
+
+Recommends:
+  lm-sensors,
+Why: hardware should be monitored

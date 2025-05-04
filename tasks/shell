@@ -63,17 +63,7 @@ Recommends:
   bind9-dnsutils,
   bind9-host,
   ipcalc,
-  iperf3,
   iputils-ping,
   ipv6calc,
   sipcalc,
-  tcpdump,
-  telnet,
-  traceroute,
-  whois,
-Why: network debug tools
-
-Recommends:
-  gddrescue,
-  testdisk,
-Why: recovery tools
+Why: basic network debug tools
