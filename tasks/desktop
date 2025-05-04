@@ -176,14 +176,6 @@ Recommends:
 Why: networking
 
 Recommends:
-  x11-utils,
-  x11-xserver-utils,
-  xbindkeys,
-  xdotool,
-  xinput,
-Why: all nice x11 utils
-
-Recommends:
   cifs-utils,
   usbutils,
 
