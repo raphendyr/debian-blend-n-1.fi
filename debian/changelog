@@ -1,3 +1,10 @@
+debian-blend-n-1.fi (0.14) testing; urgency=medium
+
+  * basesystem
+    - minor updates to packages
+
+ -- Jaakko Kantojärvi <jaakko@n-1.fi>  Tue, 13 May 2025 19:30:55 +0300
+
 debian-blend-n-1.fi (0.13) testing; urgency=medium
 
   * basesystem

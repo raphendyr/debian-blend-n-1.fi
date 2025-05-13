@@ -10,51 +10,62 @@ Depends:
   bsdutils (>= 1:2.33),
   coreutils (>= 8.30),
   dash,
-  diffutils,
   dpkg (>= 1.19),
-  e2fsprogs,
   findutils (>= 4.6.0),
   grep (>= 3.3),
   gzip (>= 1.9),
   hostname (>= 3.21),
-  init,
-  man-db,
   ncurses-base (>= 6.1),
   ncurses-bin (>= 6.1),
   sed (>= 4.7),
   util-linux (>= 2.33),
-Why: essential packages (roots)
+Why: Essential packages (always installed)
 
 Depends:
+  init,
+  sudo,
   systemd,
   systemd-cron,
   systemd-sysv,
-Why: systemd
+  locales,
+Why: Core packages, required for our policy
+
+Recommends:
+  man-db,
+Why: Core packages, which should always exist
 
 Depends:
-  apt,
   apt-listchanges,
   apt-utils,
   debconf,
   dialog,
-  locales,
+Why: Debian package management
+
 Recommends:
   aptitude,
   popularity-contest,
   reportbug,
   unattended-upgrades,
-Why: Debian package management and core stuff
+Why: Debian package support
+
+Depends:
+  e2fsprogs,
+Why: Filesystems
 
 Recommends:
   cryptsetup,
+  cryptsetup-initramfs,
   gdisk,
-Why: basic disk management tools
+Why: Encrypted disks and partitioning
 
 Depends:
   gawk,
   less,
+Why: Core shell utils
+
+Recommends:
   pv,
-Why: more basic shell utils
+Wny: Good shell utils
 
 Depends:
   bzip2,

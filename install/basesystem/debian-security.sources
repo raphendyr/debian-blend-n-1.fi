@@ -5,6 +5,7 @@ Suites: bookworm-updates
 Components: main contrib non-free non-free-firmware
 Enabled: yes
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+# TODO: change to .pgp before Debian 14
 
 Types: deb deb-src
 URIs: https://security.debian.org/debian-security

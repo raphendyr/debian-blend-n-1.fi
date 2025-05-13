@@ -4,3 +4,4 @@ Suites: stable testing unstable
 Components: main contrib non-free non-free-firmware
 Enabled: yes
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+# TODO: change to .pgp before Debian 14
