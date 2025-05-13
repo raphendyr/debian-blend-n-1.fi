@@ -2,6 +2,7 @@ debian-blend-n-1.fi (0.15) UNRELEASED; urgency=medium
 
   * basesytem
     - update dialogrc theme
+    - add systemd-cryptsetup
 
  -- Jaakko Kantojärvi <jaakko@n-1.fi>  Tue, 13 May 2025 22:06:20 +0300
 

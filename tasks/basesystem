@@ -55,6 +55,7 @@ Why: Filesystems
 Recommends:
   cryptsetup,
   cryptsetup-initramfs,
+  systemd-cryptsetup,
   gdisk,
 Why: Encrypted disks and partitioning
 
