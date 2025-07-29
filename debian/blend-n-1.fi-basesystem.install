@@ -1,3 +1,4 @@
 install/basesystem/debian-security.sources etc/apt/sources.list.d/
 install/basesystem/etc/* etc/
+install/basesystem/i18n/* usr/local/share/i18n/
 install/basesystem/sbin/* usr/sbin/
