@@ -9,3 +9,4 @@ Depends:
   blend-n-1.fi-dev-debian,
   blend-n-1.fi-dev-elixir,
   blend-n-1.fi-dev-python,
+  blend-n-1.fi-dev-rust,

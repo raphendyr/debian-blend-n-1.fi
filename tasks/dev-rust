@@ -1,0 +1,12 @@
+Format: https://blends.debian.org/blends/1.1
+Description: Rust development tools for Debian Blend by n-1.fi
+ This metapackage will install packages useful for Rust development
+ activities.
+Install: false
+
+Recommends:
+  cargo,
+  rustc,
+  rustfmt,
+  rustup,
+Why: core Rust tools

@@ -53,6 +53,13 @@ Breaks:
 Why: Use only qt variant
 
 
+# Flatpak
+
+Recommends:
+  flatpak,
+  plasma-discover-backend-flatpak,
+Why: Flatpak for desktop apps
+
 # Audio
 
 Depends:
