@@ -1,8 +1,40 @@
 #!/bin/sh
 set -e
 
+# Remove old config
 dpkg-maintscript-helper rm_conffile \
 	/etc/apt/sources.list.d/debian-security.list 0.11~ -- "$@"
+
+
+# Update SUPPORTED locales
+LOCALE_GEN="/etc/locale.gen"
+CUSTOM_ENTRY="en_CH.UTF-8 UTF-8"
+
+case "$1" in
+	configure)
+		if [ -x /usr/sbin/locale-gen ]; then
+
+			if ! grep -q "^$CUSTOM_ENTRY" "$LOCALE_GEN"; then
+				echo "Adding custom locale en_CH to $LOCALE_GEN..."
+				echo "$CUSTOM_ENTRY" >> "$LOCALE_GEN"
+			fi
+
+			echo "Generating custom locale..."
+			/usr/sbin/locale-gen
+		else
+			echo "Warning: /usr/sbin/locale-gen not found. Is the 'locales' package installed?" >&2
+		fi
+	;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+	;;
+
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 1
+	;;
+esac
+
 
 #DEBHELPER#
 

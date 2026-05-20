@@ -1,8 +1,36 @@
 #!/bin/sh
 set -e
 
+# Remove old config
 dpkg-maintscript-helper rm_conffile \
 	/etc/apt/sources.list.d/debian-security.list 0.11~ -- "$@"
+
+# Update SUPPORTED locales
+LOCALE_GEN="/etc/locale.gen"
+CUSTOM_ENTRY="en_CH.UTF-8 UTF-8"
+
+case "$1" in
+	purge|remove)
+		if [ -f "$LOCALE_GEN" ]; then
+			echo "Removing custom locale entry en_CH from $LOCALE_GEN..."
+			# Strip out your custom line
+			sed -i "/^$CUSTOM_ENTRY/d" "$LOCALE_GEN"
+
+			if [ -x /usr/sbin/locale-gen ]; then
+				/usr/sbin/locale-gen
+			fi
+		fi
+	;;
+
+	upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+	;;
+
+	*)
+		echo "postrm called with unknown argument \`$1'" >&2
+		exit 1
+	;;
+esac
+
 
 #DEBHELPER#
 
